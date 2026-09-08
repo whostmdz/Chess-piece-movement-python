@@ -41,11 +41,11 @@ def cases_tour(col,lig):
 
     return res
 
-def cases_reine(col,lig):
+def cases_roi(col,lig):
 
     return cases_fou(col,lig) + cases_tour(col,lig)
 
-def cases_roi(col,lig):
+def cases_reine(col,lig):
 
     roi=[]
     if lig-1>=0:
