@@ -154,7 +154,7 @@ class MainApp(tk.Frame):
         self.images=[]
         for name in self.img_name:
             image = Image.open(name)
-            imgage = image.resize((10, 10), Image.Resampling.LANCZOS)
+            imgage = image.resize((40, 40), Image.Resampling.LANCZOS)
             img = ImageTk.PhotoImage(imgage)
             
             self.images.append(img)
